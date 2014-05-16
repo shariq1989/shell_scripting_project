@@ -1,0 +1,12 @@
+Report Generator
+
+Written in bash shell script and influenced by a project from The Linux Command Line by William Shotts. 
+
+OS: KDE on Debian
+Rig: Samsung Chromebook
+Text Editor: KWrite
+Terminal Emulator: Konsole
+Web Browser: Konqueror, Chrome
+
+This program outputs various statistics about our system and its status, and will produce this report in HTML format, so we can view it
+with a web browser.

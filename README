@@ -1,6 +1,7 @@
 Report Generator
 
-Written in bash shell script and influenced by a project from The Linux Command Line by William Shotts. 
+Written in bash shell script and influenced by a project 
+from The Linux Command Line by William Shotts. 
 
 OS: KDE on Debian
 Rig: Samsung Chromebook
@@ -8,5 +9,21 @@ Text Editor: KWrite
 Terminal Emulator: Konsole
 Web Browser: Konqueror, Chrome
 
-This program outputs various statistics about our system and its status, and will produce this report in HTML format, so we can view it
-with a web browser.
+This program outputs various statistics about our system and its status, 
+and will produce this report in HTML format, so we can view it with a web browser.
+
+Directions
+1) Download the sys_info_page file.
+2) Using terminal, cd to the folder where the file is downloaded.
+2) Run the following command in terminal
+
+   ./sys_info_page > sys_info_page.html
+   
+3) The HTML output has been created. Open it using the command below.
+Replace your_browser with the browser on your system (firefox, etc). 
+
+   (your_browser) sys_info_page.html
+
+4) sys_info_page can be opened and tinkered with using a text editor. 
+   
+   
